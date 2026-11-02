@@ -1,0 +1,305 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Electronics Store</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>ElectroStore</h1>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#categories">Categories</a>
+            <a href="#products">Products</a>
+            <a href="#comparison">Compare</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+
+        <h2>Welcome to ElectroStore</h2>
+
+        <p>
+            Discover the latest laptops, smartphones,
+            accessories and smart devices at great prices.
+        </p>
+
+        <a href="#products" class="btn">Explore Products</a>
+
+    </section>
+
+    <!-- Categories Section -->
+    <section id="categories">
+
+        <h2>Product Categories</h2>
+
+        <div class="category-container">
+
+            <div class="category">
+                <h3>Laptops</h3>
+                <p>Explore powerful laptops.</p>
+            </div>
+
+            <div class="category">
+                <h3>Smartphones</h3>
+                <p>Discover latest smartphones.</p>
+            </div>
+
+            <div class="category">
+                <h3>Accessories</h3>
+                <p>Find useful accessories.</p>
+            </div>
+
+            <div class="category">
+                <h3>Smart Devices</h3>
+                <p>Explore smart technology.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Category Filter -->
+    <section id="filter">
+
+        <h2>Find Your Products</h2>
+
+        <input type="text" placeholder="Search products">
+
+        <select>
+            <option>All Categories</option>
+            <option>Laptops</option>
+            <option>Smartphones</option>
+            <option>Accessories</option>
+            <option>Smart Devices</option>
+        </select>
+
+        <button>Search</button>
+
+        <p class="note">
+            Search and category selection are sample interface elements.
+        </p>
+
+    </section>
+
+    <!-- Products Section -->
+    <section id="products">
+
+        <h2>Our Products</h2>
+
+        <div class="product-container">
+
+            <!-- Laptop -->
+            <div class="product">
+
+                <span class="discount">20% OFF</span>
+
+                <img src="c:\Users\Mahesh\Downloads\I was impressed with the RTX 4050 version of this___.jpg"
+                alt="Laptop">
+
+                <h3>HP Victus Laptop</h3>
+
+                <p>Intel Core i7 Processor</p>
+                <p>16GB RAM | 512GB SSD</p>
+
+                <h3 class="price">₹75,999</h3>
+
+                <p class="old-price">₹94,999</p>
+
+                <a href="#laptop-details" class="btn">View Details</a>
+
+            </div>
+
+            <!-- Smartphone -->
+            <div class="product">
+
+                <span class="discount">15% OFF</span>
+
+                <img src="c:\Users\Mahesh\Downloads\Vivo V40 Pro (1).jpg"
+                alt="Smartphone">
+
+                <h3>Vivo Smartphone</h3>
+
+                <p>Powerful Processor</p>
+                <p>12GB RAM | 256GB Storage</p>
+
+                <h3 class="price">₹29,999</h3>
+
+                <p class="old-price">₹34,999</p>
+
+                <a href="#phone-details" class="btn">View Details</a>
+
+            </div>
+
+            <!-- Headphones -->
+            <div class="product">
+
+                <span class="discount">25% OFF</span>
+
+                <img src="c:\Users\Mahesh\Downloads\Immersive Gaming Headset for Gamers 🎧.jpg"
+                alt="Headphones">
+
+                <h3>Wireless Headphones</h3>
+
+                <p>Bluetooth Connectivity</p>
+                <p>Noise Reduction</p>
+
+                <h3 class="price">₹1,499</h3>
+
+                <p class="old-price">₹1,999</p>
+
+                <a href="#accessory-details" class="btn">View Details</a>
+
+            </div>
+
+            <!-- Smart Watch -->
+            <div class="product">
+
+                <span class="discount">10% OFF</span>
+
+                <img src="c:\Users\Mahesh\Downloads\Premium Women’s Smart Watch – AMOLED Display, Health & Fitness Tracking.jpg"
+                alt="Smart Watch">
+
+                <h3>Smart Watch</h3>
+
+                <p>Fitness Tracking</p>
+                <p>Bluetooth Calling</p>
+
+                <h3 class="price">₹2,699</h3>
+
+                <p class="old-price">₹2,999</p>
+
+                <a href="#watch-details" class="btn">View Details</a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Product Details -->
+    <section id="details">
+
+        <h2>Product Specifications</h2>
+
+        <div class="details-box" id="laptop-details">
+
+            <h3>HP Victus Laptop</h3>
+
+            <p>Processor: Intel Core i7</p>
+            <p>RAM: 16GB</p>
+            <p>Storage: 512GB SSD</p>
+            <p>Graphics: NVIDIA GeForce RTX</p>
+
+        </div>
+
+        <div class="details-box" id="phone-details">
+
+            <h3>Vivo Smartphone</h3>
+
+            <p>Display: AMOLED</p>
+            <p>RAM: 12GB</p>
+            <p>Storage: 256GB</p>
+            <p>Camera: Multiple Camera System</p>
+
+        </div>
+
+        <div class="details-box" id="accessory-details">
+
+            <h3>Wireless Headphones</h3>
+
+            <p>Connectivity: Bluetooth</p>
+            <p>Type: Wireless</p>
+            <p>Feature: Noise Reduction</p>
+
+        </div>
+
+        <div class="details-box" id="watch-details">
+
+            <h3>Smart Watch</h3>
+
+            <p>Display: Digital Display</p>
+            <p>Connectivity: Bluetooth</p>
+            <p>Features: Fitness Tracking</p>
+
+        </div>
+
+    </section>
+
+    <!-- Comparison Table -->
+    <section id="comparison">
+
+        <h2>Product Comparison</h2>
+
+        <table>
+
+            <tr>
+                <th>Features</th>
+                <th>Laptop</th>
+                <th>Smartphone</th>
+                <th>Smart Watch</th>
+            </tr>
+
+            <tr>
+                <td>RAM</td>
+                <td>16GB</td>
+                <td>12GB</td>
+                <td>1GB</td>
+            </tr>
+
+            <tr>
+                <td>Storage</td>
+                <td>512GB</td>
+                <td>256GB</td>
+                <td>8GB</td>
+            </tr>
+
+            <tr>
+                <td>Display</td>
+                <td>15.6 Inch</td>
+                <td>6.7 Inch</td>
+                <td>1.8 Inch</td>
+            </tr>
+
+            <tr>
+                <td>Price</td>
+                <td>₹75,999</td>
+                <td>₹29,999</td>
+                <td>₹2,699</td>
+            </tr>
+
+        </table>
+
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+
+        <h2>Contact Us</h2>
+
+        <p>Email: electrostore@gmail.com</p>
+
+        <p>Phone: 9876543210</p>
+
+        <p>Location: India</p>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+
+        <p>© 2026 ElectroStore. All Rights Reserved.</p>
+
+        <p>Your Technology Shopping Destination</p>
+
+    </footer>
+
+</body>
+</html>
